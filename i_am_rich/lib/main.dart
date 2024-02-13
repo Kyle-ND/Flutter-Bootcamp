@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'I am RICH',
-      theme: ThemeData(scaffoldBackgroundColor: Colors.grey[800]),
+      theme: ThemeData(scaffoldBackgroundColor: Colors.blueGrey[800]),
       home: Scaffold(
         appBar: AppBar(
           title: Text(
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
               color: Colors.white,
                fontWeight: FontWeight.bold),
           ),
-          backgroundColor: Colors.grey[800],
+          backgroundColor: Colors.blueGrey[900],
           centerTitle: true,
         ),
       body: _diamondimage(),),
