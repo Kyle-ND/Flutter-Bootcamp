@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(scaffoldBackgroundColor: Colors.blueGrey[800]),
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             "I Am Rich",
             style: TextStyle(
               color: Colors.white,
